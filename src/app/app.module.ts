@@ -1,3 +1,7 @@
+import { PagesModule } from './pages/pages.module';
+import { SharedComponent } from './shared/shared.component';
+import { PagesComponent } from './pages/pages.component';
+import { AuthComponent } from './auth/auth.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,11 +10,15 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthComponent,
+    PagesComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
