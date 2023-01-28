@@ -16,7 +16,7 @@ import { NoFoundComponent } from './no-found/no-found.component';
     AuthComponent,
     PagesComponent,
     SharedComponent,
-    NoFoundComponent
+    NoFoundComponent,
   ],
   imports: [
     BrowserModule,
