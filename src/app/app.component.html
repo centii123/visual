@@ -1,3 +1,20 @@
-<h1>{{title}}</h1>
-<app-pages></app-pages>
+<div id="main-wrapper">
+    <app-header></app-header>
+    <app-sidebar></app-sidebar>
+    <div class="pages-wrapper">
+        <div class="container-fluid"> 
+            <app-breadcrumbs></app-breadcrumbs>
+            <!--sistema de rutas-->
+            <div class="row">
+                <div class="col-9">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>aqui las rutas</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <router-outlet></router-outlet>

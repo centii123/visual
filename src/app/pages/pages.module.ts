@@ -1,3 +1,4 @@
+import { PageRoutingModule } from './page-routing.module';
 import { PagesComponent } from './pages.component';
 import { ProductComponent } from './product/product.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -15,7 +16,8 @@ import { CommonModule } from '@angular/common';
     ProductComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    PageRoutingModule
   ],
   exports:[
     CategoryComponent,
