@@ -21,11 +21,6 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     PageRoutingModule,
     SharedModule
-  ],
-  exports:[
-    CategoryComponent,
-    DashboardComponent,
-    ProductComponent
   ]
 })
 export class PagesModule { }
