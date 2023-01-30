@@ -5,11 +5,13 @@ import { FooterComponent } from './footer/footer.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SharedComponent } from './shared.component';
 
 
 
 @NgModule({
   declarations: [
+    SharedComponent,
     BreadcrumbsComponent,
     FooterComponent,
     HeaderComponent,
