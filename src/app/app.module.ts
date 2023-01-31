@@ -1,5 +1,3 @@
-import { SharedModule } from './shared/shared.module';
-import { PagesModule } from './pages/pages.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,8 +15,6 @@ import { HttpClientModule } from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule,
-    SharedModule,
     HttpClientModule
   ],
   providers: [],
